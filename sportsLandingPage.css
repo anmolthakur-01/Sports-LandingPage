@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url(sportsLandingshoe.png);
+    background-repeat: no-repeat;
+    background-position: right ;
+    background-attachment:fixed;
+}
+.navbar{
+    background-color: #201E43;
+}
+.nav-container{
+    padding: 15px 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-container-logo{
+    color: white;
+}
+.nav-container-menu li{
+    display: inline-block;
+    margin: 0 50px;
+    font-weight: 400;
+}
+.nav-container-menu li a{
+    color: white;
+}
+.nav-container-cart button{
+    width: 75px;
+    height: 36px;
+    background-color: crimson;
+}
+.nav-container-cart button a{
+    font-weight: 600;
+    color: white;
+    font-size:16px;
+}
+main{
+    margin-right: 700px;
+    padding: 0 5%;
+    margin-top:  7%;
+    
+}
+main h2{
+    color: dodgerblue;
+    margin-top: 4%;
+
+}
+main big{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 4%;
+
+}
+main button{
+    width: 100px;
+    height: 36px;
+    background-color:crimson;
+    margin-top: 4%;
+}
+main button a{
+    color: white;
+    font-weight: bold;
+}
